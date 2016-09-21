@@ -1,0 +1,140 @@
+
+{
+	margin:0px;
+	padding:0px;
+}
+body{
+background-image: url(../img/UNAD2.png);
+background-repeat:no-repeat;
+background-size:100%;
+background-attachment: fixed;
+} 
+
+
+#vacio{
+	width:100%;
+	height:670px;
+}
+#contenedor{
+	width:100%;
+	heigth:1000px;
+	background-color:withe;
+}
+
+#principal{
+  width:1340px;
+  border:0.5px solid #000000;
+  margin:35px auto;
+-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;
+-webkit-box-shadow: #666 3px 5px 8px;
+-moz-box-shadow: #666 3px 5px 8px;
+box-shadow: #666 3px 5px 8px;
+background: #e6e6e6;
+behavior: url(/pie/PIE.htc);
+}
+
+#cabecera{
+background:url(../img/fondo3.jpg);
+background-repeat:repeat x;
+	height:100px;
+	border:1px solid #000000;
+	margin:10px;
+	text-aling: center;
+	-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;
+-webkit-box-shadow: #666 3px 5px 8px;
+-moz-box-shadow: #666 3px 5px 8px;
+box-shadow: #666 3px 5px 8px;
+}
+
+
+
+#menu{
+background:url(../img/fondo1.jpg);
+background-repeat:repeat x;
+	height:40px;
+	margin:10px 0px  10px 0px;
+
+}
+
+#menu li {
+margin-left:100px;
+padding-botton:30px;
+display:inline;
+font-size:30px;
+color: #595959
+	
+}
+
+#columnaizq{
+	width:200px;
+	border:1px solid #000000;
+	margin:10px;
+	float:left;
+}
+
+#columnader{
+	width:605px;
+	border:1px solid #000000;
+	margin:10px;
+	float:left;
+}
+
+
+.clear{
+clear:both;
+}
+
+#Pie{
+height:50px;
+border:1px solid #000000;
+margin:10px;
+}
+.banner{
+	width:300px;
+	border:1px solid #000000;
+	margin:15px;
+	float:right;
+	bottom:1;
+	background-size: 30$ 40$;
+	animation: banner 6s infinite;
+
+}
+
+@keyframes banner {
+	0%, 30%{
+		background-image: url(img/banner2.jpg);
+		opacity: 1;
+
+	}
+
+    31%, 34% {
+    	opacity: 0.1;
+    }
+
+    35%, 65% {
+    	background-image: url(img/banner3.png);
+    	opacity:1;
+
+    }
+    	66%, 69%{
+    		opacity: 0.1;
+    	}
+
+    	70%, 100% {
+    		opacity: 1;
+    		background-image: url(img/banner1.png);
+    	}
+
+}
+
+#pie{
+	width:1300px;
+	border:0px solid #000000;
+	margin:0px;
+	background-image: url(img./UNAD3.png);
+	bottom:100;
+}
